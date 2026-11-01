@@ -1,0 +1,81 @@
+body { 
+       font-family: Arial, sans-serif;
+       font-size: 14px;
+       color: #333;
+}
+
+.container { 
+       width: 850px; 
+       margin: 30px auto; 
+}
+
+h1, h2 {
+       color: #3b7aa8;
+       font-weight: normal; 
+}
+
+hr { 
+       border: 0; 
+       border-top: 1px solid #ddd;
+}
+
+table { 
+       width: 100%;
+       border-collapse: collapse;
+}
+
+th { 
+       background: #d9edf7;
+       text-align: left;
+       padding: 10px;
+}
+
+td { 
+       padding: 10px;
+       border: 1px solid #ddd;
+}
+
+.kanan {
+       float: right;
+}
+
+.pesan { 
+       background: #dff0d8; 
+       padding: 8px; border-radius: 3px;
+}
+.btn { 
+       display: inline-block;
+       padding: 5px 10px;
+       color: white; 
+       text-decoration: none;
+       border: 0; 
+       border-radius: 3px;
+       font-size: 13px;
+       cursor: pointer; 
+}
+
+.btn-hijau {
+       background: #5cb85c; 
+}
+
+.btn-oranye { 
+       background: #e8590c; 
+}
+
+.btn-merah { 
+       background: #c9302c; 
+}
+
+table.form td {
+       border: 0;
+}
+input {
+       padding: 7px;
+       border: 1px solid #ccc;
+       border-radius: 3px;
+       width: 200px;
+}
+
+input.panjang {
+       width: 400px; 
+}
